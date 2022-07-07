@@ -9,7 +9,6 @@ weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
     const location = search.value
-    console.log(location)
 
     message1.textContent = ''
     message2.textContent = ''
