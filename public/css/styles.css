@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    font-size: large;
+    padding: 15px;
+}
+
+header > a {
+    margin-right: 20px;
+}
+
+header > a:hover {
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+}
+
+body {
+    background-repeat: no-repeat;
+}
+
+img {
+    opacity: 0.5;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-size: small;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.error-404 {
+    font-size: xx-large;
+}
+
+.get-weather {
+    margin-top: 30px;
+}
+
+.get-weather > p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.search-form {
+    width: 800px;
+    height: 300px;
+
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.search-form:before {
+    content: "";
+    background-color: lightgrey;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+.given-location {
+    padding-top: 85px;
+}
+
+.current-location {
+    padding-top: 6px;
+}
+
+input, button {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
+
+input {
+    height: 33px;
+    width: 350px;
+    text-indent: 10px;
+}
+
+button {
+    height: 35px;
+    margin: auto;
+}
+
+.about-page {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.about-info > a {
+    font-size: medium;
+    font-weight: bold;
+}

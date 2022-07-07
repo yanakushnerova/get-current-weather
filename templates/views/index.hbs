@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather-icon.jpg">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    {{>header}}
+
+    <div class="main">
+        {{>pagetitle}}
+
+        <div class="get-weather">
+            <form class="search-form">
+                <div class="given-location">
+                    <input placeholder="enter your location">
+                    <button>Search</button>
+                </div>
+                <p>or</p>
+                <div class="current-location">
+                    <button id="current-location-button">Get weather for your current location</button>
+                </div>
+            </form>
+            
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

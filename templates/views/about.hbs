@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather-icon.jpg">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    {{>header}}
+    
+    <div class="main">
+        {{>pagetitle}}
+    </div>
+
+    <div class="about-page">
+        <p class="about-info">This site was created by Yana Kushnerova as a Node.js test project. It uses data from <a href="https://weatherstack.com/">weatherstack.com</a> and <a href="https://darksky.net/dev">darksky.net</a>. Website can be used to search current weather all over the world.</p>
+        <p class="about-info">See more projects on <a href="https://github.com/yanakushnerova">github.com/yanakushnerova</a></p>
+    </div>
+    
+    {{>footer}}
+</body>
+</html>
